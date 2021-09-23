@@ -1,0 +1,23 @@
+footer {
+  max-width: 1600px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-top: 50px;
+  p {
+    color: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-family: sans-serif;
+
+    a {
+      text-decoration: none;
+      color: cyan;
+      font-family: sans-serif;
+      font-size: 20px;
+    }
+  }
+}

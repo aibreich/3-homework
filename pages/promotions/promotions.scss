@@ -1,0 +1,137 @@
+.promotions {
+  // the hero for promotions
+  .promotion-hero {
+    background-image: url(https://cdn.shopify.com/s/files/1/0573/1637/6755/files/DSC08823-HDR_2f3429bc-7369-4528-8c88-f43d9004045c_1950x.jpg?v=1631199187%201950w%202438h);
+    max-width: 1400px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 350px;
+    // the box that is slightly darker to give the text something to pop from
+    .hero-box {
+      width: 580px;
+      height: 160px;
+      background-image: linear-gradient(
+        to left,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      );
+      margin: 0 auto;
+
+      h2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 40px;
+        font-family: sans-serif;
+        color: cyan;
+        padding-top: 15px;
+        font-style: italic;
+      }
+      p {
+        padding-left: 25px;
+        padding-right: 20px;
+        text-align: center;
+        width: 580px;
+        height: 20px;
+        font-family: sans-serif;
+        font-size: 17px;
+        color: cyan;
+      }
+    }
+  }
+  // a container i used over and over to hold two of the winners per line
+  .promo-winners {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    // two most recent winners with the giveaway name changing with a new type of giveaway
+    .str-1 {
+      height: 480px;
+      max-width: 680px;
+      background-image: url(https://cdn.shopify.com/s/files/1/0573/1637/6755/files/DSC08340_2_1024x1024.jpg);
+      background-position: center;
+      background-size: cover;
+      flex: 1;
+      padding-top: 324px;
+    }
+    .stm-1 {
+      height: 480px;
+      max-width: 680px;
+      background-image: url(https://cdn.shopify.com/s/files/1/0573/1637/6755/files/Use_this_one_6e47cffd-3cc2-43b6-87ef-92f06530528e_1080x.png?v=1622750785%201080w%20601h);
+      background-position: center;
+      background-size: cover;
+      flex: 2;
+      padding-top: 324px;
+    }
+    // same as the hero box from before just made for the individuals
+    .promo-box {
+      width: 380px;
+      height: 120px;
+      background-image: linear-gradient(
+        to left,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      );
+      margin: 0 auto;
+      h3 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: cyan;
+        padding-top: 15px;
+        font-style: italic;
+      }
+      p {
+        padding-left: 25px;
+        padding-right: 20px;
+        text-align: center;
+        width: 380px;
+        height: 20px;
+        font-family: sans-serif;
+        font-size: 15px;
+        color: cyan;
+      }
+    }
+    // save the manuals winners in order from top to bottom
+    .stm-2 {
+      height: 480px;
+      max-width: 680px;
+      background-image: url(https://cdn.shopify.com/s/files/1/0573/1637/6755/files/IMG_1804_900x.jpg?v=1622749610%20900w%20675h);
+      background-position: center;
+      background-size: cover;
+      flex: 1;
+      padding-top: 324px;
+    }
+    .stm-3 {
+      height: 480px;
+      max-width: 680px;
+      background-image: url(https://cdn.shopify.com/s/files/1/0573/1637/6755/files/Use_this_one_1296x.png?v=1622748699%201296w%20934h);
+      background-position: center;
+      background-size: cover;
+      flex: 2;
+      padding-top: 324px;
+    }
+    .stm-4 {
+      height: 480px;
+      max-width: 880px;
+      background-image: url(https://cdn.shopify.com/s/files/1/0573/1637/6755/files/download_2_720x.jpg?v=1622649179%20720w%20512h);
+      background-position: top;
+      background-size: cover;
+      flex: 1;
+      padding-top: 324px;
+    }
+    .stm-5 {
+      height: 480px;
+      max-width: 480px;
+      background-image: url(https://cdn.shopify.com/s/files/1/0573/1637/6755/files/download_6_540x.jpg?v=1622649574%20540w%20289h);
+      background-position: right;
+      background-size: cover;
+      flex: 2;
+      padding-top: 324px;
+    }
+  }
+}

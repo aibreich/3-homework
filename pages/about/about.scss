@@ -1,0 +1,128 @@
+.about {
+  .about-hero {
+    max-width: 1360px;
+    height: 70px;
+    // i used the link to the site for the website that they used on their site which made it easy to have that stuff load up while being high res
+    background-image: url(https://cdn.shopify.com/s/files/1/0573/1637/6755/files/car-99-takes-the-lead-in-a-blur-of-speed.jpg?v=1622131929);
+    background-position: center;
+    background-size: cover;
+    // header for the hero
+    h1 {
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      color: black;
+      background-color: cyan;
+      width: 180px;
+      height: 35px;
+    }
+  }
+  // the top half of the page / top section
+  .about-content {
+    padding-top: 40px;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+
+    // about image with person and winner
+
+    .about-img {
+      max-width: 700px;
+      height: 600px;
+      // same as before i used this from their site when inspecting the elements
+      background-image: url(https://cdn.shopify.com/s/files/1/0573/1637/6755/files/188010462_376641553735810_2937691108726392261_n_540x.jpg?v=1622567643%20540w);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      flex: 1;
+    }
+    // the text section for the top half of the about page
+    .about-text {
+      max-width: 700px;
+      height: 600px;
+      flex: 1;
+      margin-right: 20px;
+      background-color: black;
+      padding-top: 190px;
+      // the title for the main person bio
+      h3 {
+        color: cyan;
+        margin: 0 auto;
+        font-size: 30px;
+        font-family: sans-serif;
+        height: 32px;
+        width: 450px;
+      }
+      // main persons back story paragraphs
+      p {
+        color: cyan;
+        margin: 20px auto;
+        text-align: center;
+        font-size: 18px;
+        max-width: 550px;
+        font-family: sans-serif;
+      }
+    }
+  }
+  // the bottom half of the about page / the bottom section
+  .about-content-2 {
+    padding-top: 40px;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    // about text container
+
+    .about-text {
+      max-width: 700px;
+      height: 700px;
+      flex: 1;
+      background-color: black;
+      padding-top: 25px;
+      // bottom header
+      h3 {
+        color: cyan;
+        margin: 0 auto;
+        font-size: 30px;
+        font-family: sans-serif;
+        height: 32px;
+        width: 290px;
+      }
+      // the paragraph tags
+      p {
+        color: cyan;
+        margin: 20px auto;
+        text-align: center;
+        font-size: 16px;
+        max-width: 550px;
+        font-family: sans-serif;
+      }
+    }
+    // the about box containing the link to the sema site where it goes
+    .about-box {
+      width: 180px;
+      height: 35px;
+      background-color: cyan;
+      margin: 40px auto;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 8px;
+        text-decoration: none;
+        color: black;
+        font-family: sans-serif;
+      }
+    }
+    .about-img-2 {
+      max-width: 700px;
+      height: 700px;
+      background-image: url(https://cdn.shopify.com/s/files/1/0573/1637/6755/files/DSC08340_2_1024x1024.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      flex: 1;
+    }
+  }
+}

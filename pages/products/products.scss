@@ -1,0 +1,127 @@
+.products {
+  max-width: 1500px;
+  height: 400px;
+  // the products header
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+  }
+  // top of the grid holding the 4 top boxes
+  .top-grid {
+    max-width: 1400px;
+
+    .prod-img {
+      width: 150px;
+      height: 150px;
+      display: inline-flex;
+      margin-left: 150px;
+    }
+    .prod-text-box {
+      margin-top: 150px;
+      // the text styling i used with the span being the entries which was orange
+      p {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-family: sans-serif;
+        font-size: 14px;
+        padding-top: 10px;
+        text-align: center;
+        font-weight: bold;
+      }
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-family: sans-serif;
+        font-size: 14px;
+        padding-top: 10px;
+        color: orange;
+        font-weight: bolder;
+      }
+    }
+  }
+  // the bottom grid that holds the bottom 4 products
+  .btm-grid {
+    max-width: 1400px;
+
+    .prod-img {
+      margin-top: 150px;
+      margin-left: 150px;
+      width: 150px;
+      height: 150px;
+      display: inline-flex;
+    }
+    // product text and entries for each item
+    .prod-text-box {
+      margin-top: 150px;
+
+      p {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-family: sans-serif;
+        font-size: 14px;
+        padding-top: 10px;
+        text-align: center;
+        font-weight: bold;
+      }
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-family: sans-serif;
+        font-size: 14px;
+        padding-top: 10px;
+        color: orange;
+        font-weight: bold;
+      }
+    }
+  }
+}
+// all the product images used for each product
+.prod-1 {
+  background-image: url(../images/prod-img-1.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.prod-2 {
+  background-image: url(../images/prod-img-2.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.prod-3 {
+  background-image: url(../images/prod-img-3.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.prod-4 {
+  background-image: url(../images/prod-img-4.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.prod-5 {
+  background-image: url(../images/prod-img-5.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.prod-6 {
+  background-image: url(../images/prod-img-6.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.prod-7 {
+  background-image: url(../images/prod-img-7.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.prod-8 {
+  background-image: url(../images/prod-img-8.jpeg);
+  background-position: center;
+  background-size: cover;
+}
